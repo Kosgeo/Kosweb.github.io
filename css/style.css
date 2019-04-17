@@ -1,0 +1,154 @@
+
+body{
+	font-family: Arial, Helvetics, sans-serif;
+	font-size: 15px;
+	line-height: 1.5;
+	margin: 0;
+	padding: 0;
+	background-color: #f4f4f4;
+}
+	/*global*/
+.container{
+	width: 80%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.button_1{
+	height: 38px;
+	border: 0;
+	background: #e8491d;
+	color: #ffff;
+	padding: 0px 20px ;
+
+
+}
+
+
+/*header*/
+header{
+	background-color: #35424a;
+	color: #ffff;
+	padding-top: 30px;
+	min-height: 70px;
+	border-bottom: #e8491d 3px solid;
+}
+header a{
+	color: #ffff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+header a:hover{
+	color: #e8491d;
+	font-weight: 700;
+}
+header ul{
+	display: flex;
+	justify-content:flex-end;
+	margin: 0;
+	padding: 0;
+}
+header li{
+	display:flex;
+	justify-content: flex-end;
+	margin-left: 30px;
+}
+header h1{
+margin-bottom: 30px;
+}
+#branding{
+	display: flex;
+	justify-content: space-between;
+	-ms-align-items: center;
+	align-items: center;
+}
+.highlight, header .current a{
+	color: #e8491d;
+	font-weight: bold;
+}
+
+/*showcace*/
+#showcase{
+	min-height: 400px;
+	background: url('../img/showcase.jpg') no-repeat 0 -200px;
+	text-align: center;
+	color: #ffff;
+	padding-bottom: 120px;
+
+}
+#showcase h1{
+	margin-top: 100px;
+	font-size: 50px;
+	margin-bottom: 30px;
+}
+#showcase p{
+	font-size: 20px;
+}
+#newsletter{
+	padding: 30px;
+	color: #ffff;
+	background: #35424a;
+}
+#newsletter .container{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+#newsletter input{
+	padding: 5px;
+	width: 250px;
+	height: 25px;
+}
+ 
+ /*Boxes*/
+
+ #boxes .container{
+ 	margin-top: 40px;
+ 	display: flex;
+	justify-content: space-between;
+ }
+ #boxes .box{
+ 	text-align: left;
+ 	padding: 60px;
+ }
+
+ footer{
+ 	padding: 0px 20px 0px 20px;
+ 	display: flex;
+ 	justify-content:space-between;
+ 	color: #ffff;
+ 	background-color: rgba(232, 73, 29, 0.5);
+ 	text-align: center;
+ 	font-size: 14px;
+ 	font-weight: bold;
+ }
+ #main .container{
+ 	padding: 20px;
+ 	display: flex;
+ 	justify-content: space-around;
+ }	
+.page-title{
+	margin-right: 25px;
+ 	width: 65%;
+ }
+
+#sidebar{
+	color: #ffff;
+	padding:15px;	
+	background-color: #35424a;
+	margin-left: 35px;
+width: 35%
+  }
+  #sidebar .quote{
+ padding-top: 20px;
+ display: flex;
+ flex-direction: column;
+  }
+  .quote input{
+  	padding: 10px;
+  	margin: 20px;
+  }
+  .quote textarea{
+  	height: 50px;
+  	width: 280px;
+  }
